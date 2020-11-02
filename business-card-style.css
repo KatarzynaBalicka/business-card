@@ -12,10 +12,11 @@ main {
   box-sizing: border-box;
   border-radius: 26px;
   padding: 32px;
-  height: 320px;
-  width: 624px;
+  max-height: 320px;
+  max-width: 624px;
   display: flex;
   align-items: flex-start;
+  overflow: auto;
   
 
   
@@ -26,6 +27,8 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   margin: 0 0 0 32px;
+  line-height: 22px;
+  
 
 }
 .namae {
@@ -36,10 +39,19 @@ main {
 .shoku {
     margin: 0;
     font-size: 18px;
+    line-height: 21px;
+    color: #545454;
+    font-style: italic;
 }
 
 .hontai{
     line-height: 22px;
     margin: 24px 0 0 0;
     font-size: 16px;
+   
 }
+a {
+    color: #E20613;
+    text-decoration: none;
+}
+
